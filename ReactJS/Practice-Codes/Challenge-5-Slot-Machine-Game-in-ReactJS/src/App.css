@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-color: #d2dbdd;
+}
+
+.heading_style{
+  padding: 30px;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  background-color: #fff;
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+.mslots{
+  text-align:center;
+  margin: auto 30%;
+  padding: 10px;
+  align-items: center;
+  border: 1px solid #000;
+  border-radius: 10px;
+}
+
+.mslots div{
+  padding: 20px;
+}
+
+.mslots h2{
+  font-family: "Roboto", sans-serif;
+  font-size: 1.7rem;
+}

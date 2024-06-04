@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heading_6{
+    color: #1bdf73;
+    border-color: black;
+    margin: 50px 0;
+    text-align: center;
+    text-decoration: none;
+    font-size: 3rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.div_6{
+    display: flex;
+    justify-content: center;
+}
+
+.div_6 img{
+    width: 250px;
+    height: 300px;
+}

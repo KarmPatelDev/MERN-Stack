@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title></title>
+  {{>header}}
+</head>
+<body>
+    {{>navbar}}
+
+    <h1 class="m-3">Register Form</h1>
+
+    <form action="/register" method="POST" class="mx-5">
+     
+        <div class="row align-items-center">
+            
+            <div class="mb-3">
+                <input type="text" class="form-control" placeholder="First Name" value="" name="firstname" />
+            </div>
+
+            <div class="mb-3">
+                <input type="text" class="form-control" placeholder="Last Name" value="" name="lastname" />
+            </div>
+
+            <div class="mb-3">
+                <div class="maxl">
+                    <label class="radio inline">
+                        <input type="radio" name="gender" value="male" checked>
+                        <span> Male </span>
+                    </label>
+                    <label class="radio inline">
+                        <input type="radio" name="gender" value="female" checked>
+                        <span> Female </span>
+                    </label>
+                    <label class="radio inline">
+                        <input type="radio" name="gender" value="other" checked>
+                        <span> Other </span>
+                    </label>
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <input type="Number" minlength="3" maxlength="3" class="form-control" placeholder="Age" value="" name="age" />
+            </div>
+
+            <div class="mb-3">
+                <input type="email" class="form-control" placeholder="Email" value="" name="email" />
+            </div>
+
+            <div class="mb-3">
+                <input type="Number" minlength="10" maxlength="10" class="form-control" placeholder="Phone Number" value="" name="phonenumber" />
+            </div>
+
+            <div class="mb-3">
+                <input type="password" class="form-control" placeholder="Password" value="" name="password" />
+            </div>
+
+            <div class="mb-3">
+                <input type="password" class="form-control" placeholder="Confirm Password" value="" name="confirmpassword" />
+            </div>
+
+        </div>
+
+            <input type="submit" class="btn btn-success" value="Register"/>
+
+    </form>
+
+    {{>footer}}
+</body>
+</html>
+

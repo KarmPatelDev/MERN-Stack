@@ -1,0 +1,1 @@
+/* use -g at last for globally install in desktop */
