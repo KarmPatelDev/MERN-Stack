@@ -10,3 +10,5 @@ console.log(`${memory_available}`/1024/1024/1024);
 
 const total_memory = os.totalmem();  // for total memory (ram)
 console.log(`${total_memory}`/1024/1024/1024);
+
+console.log(os.cpus().length)
